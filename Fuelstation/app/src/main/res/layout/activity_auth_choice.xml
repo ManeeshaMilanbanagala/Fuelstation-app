@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/pagebkg"
+    tools:context=".AuthChoiceActivity">
+
+    <!-- Button for Manager Authentication -->
+    <Button
+        android:id="@+id/btnManagerAuth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manager Authentication"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Button for Owner Authentication -->
+    <Button
+        android:id="@+id/btnOwnerAuth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Owner Authentication"/>
+
+</LinearLayout>

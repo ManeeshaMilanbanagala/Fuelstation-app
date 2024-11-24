@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/SalaryCal"
+        android:icon="@drawable/baseline_attach_money_24"
+        android:title="Calculation" />
+
+    <item
+        android:id="@+id/otherexpensess"
+        android:icon="@drawable/otherexpensess"
+        android:title="Expenses" />
+
+    <item
+        android:id="@+id/oilmanagement"
+        android:icon="@drawable/oilmanagement"
+        android:title="Oil" />
+
+    <item
+        android:id="@+id/employeeregistation"
+        android:icon="@drawable/employeeregistation"
+        android:title="Registration" />
+</menu>
